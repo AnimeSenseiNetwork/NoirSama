@@ -143,7 +143,7 @@ REPLY_ERROR = """<code>Use this command as a reply to any telegram message with 
 async def not_joined(client: Client, message: Message):
     buttons = [
         [
-         InlineKeyboardButton(text="ᴊᴏɪɴ 1", url="https://t.me/PAWSOG_bot/PAWS?startapp=D8pt03S2"),
+         InlineKeyboardButton(text="ᴊᴏɪɴ 1", url=client.invitelink),
             InlineKeyboardButton(text="ᴊᴏɪɴ 𝟸", url=client.invitelink2),
             InlineKeyboardButton(text="ᴊᴏɪɴ 3", url=client.invitelink3),
         ]
