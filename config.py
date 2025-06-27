@@ -9,7 +9,7 @@ from logging.handlers import RotatingFileHandler
 
 
 #Your Telegram Bot Token From Botfather 
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6982088057:AAFpI4pjXceR3akyedS40P1zfIuOOtHCtk4")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6982088057:AAFGhCFtDQ9SZeFx3LEHokIbQ14JpTRCTdU")
 
 #Your API ID from my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "26376042"))
@@ -32,8 +32,8 @@ DB_NAME = os.environ.get("DATABASE_NAME", "filesharexbot")
 
 #force sub channel id, if you want enable force sub
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002491040507"))
-FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1001717121807"))
-FORCE_SUB_CHANNEL3 = int(os.environ.get("FORCE_SUB_CHANNEL3", "-1001856862537"))
+FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1002008735707"))
+FORCE_SUB_CHANNEL3 = int(os.environ.get("FORCE_SUB_CHANNEL3", "-1002283226491"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
